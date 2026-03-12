@@ -1,7 +1,9 @@
 # Modulo_1
 
 ---
-![Los Técninos](Logo.jpg)
+![Los Técninos](Logo.jpg,width:200)
+
+
 **Ejercicio 1: Cómo crear, modificar y hacer un archivo README.md**
 
 **Ejercicio 2: Creación de un archivo HTML de forma manual.**
