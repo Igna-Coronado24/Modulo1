@@ -1,7 +1,7 @@
 # Modulo_1
 
 ---
-![Los Técninos](Logo.jpg)
+![Los Técninos](Logo.png)
 
 
 **Ejercicio 1: Cómo crear, modificar y hacer un archivo README.md**
