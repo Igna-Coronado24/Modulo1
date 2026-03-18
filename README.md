@@ -2,8 +2,6 @@
 
 ---
 
-<img src="Logo.png" width="400"/>
-
 
 
 **Ejercicio 1: Cómo crear, modificar y hacer un archivo README.md**
