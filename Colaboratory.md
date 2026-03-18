@@ -21,5 +21,5 @@ Es el lenguaje que interpreta el código escrito.
 |Joule|Cálculo científico y numérico de alto rendimiento|
 
 ## Ejemplo Práctico
-<img scr="Captura.png" width="400"/>
+<img src="Captura.png"/>
 
