@@ -1,0 +1,96 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[margin=0cm]{geometry}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture, overlay]
+
+% -------- BARRA GRIS IZQUIERDA --------
+\fill[gray!30] (current page.north west) rectangle ([xshift=8cm]current page.south west);
+
+% -------- FOTO --------
+\node at ([xshift=3.75cm,yshift=-3cm]current page.north west) {
+    \includegraphics[width=6cm,height=8cm]{Foto Ignacio Coronado.jpg}
+};
+
+% -------- TEXTO IZQUIERDA --------
+\node[anchor=north west, text width=5cm] at ([xshift=0.4cm,yshift=-8cm]current page.north west) {
+
+\textbf{\large SOBRE MÍ}
+
+\vspace{5pt}
+
+Estudiante de Ingeniería Industrial con interés en economía circular, especialmente en logística inversa. Cuento con conocimientos en gestión de proyectos y experiencia en trabajo en equipo adquirida a través de proyectos académicos.
+
+\vspace{15pt}
+
+\textbf{\large CONTACTO}
+
+\vspace{5pt}
+
+2612161983
+
+\href{mailto:ignaciomcoronadopungitore@gmail.com}{ignaciomcoronadopungitore@gmail.com}
+
+\vspace{12pt}
+
+};
+
+% -------- NOMBRE Y PERFIL --------
+\node[anchor=north west] at ([xshift=8cm,yshift=-2cm]current page.north west) {
+    {\Huge \textbf{IGNACIO}}\\
+    \hspace{2pt}
+    {\Huge \textbf{CORONADO}}\\[5pt]
+    
+};
+
+% -------- CONTENIDO DERECHO --------
+\node[anchor=north west, text width=13cm] at ([xshift=8cm,yshift=-6cm]current page.north west) {
+
+\textbf{\large ESTUDIOS}
+
+\vspace{5pt}
+
+\textbf{Universidad Nacional de Cuyo}
+
+Carrera de Ingeniería Industrial, en curso (4° año).
+
+\vspace{6pt}
+
+\textbf{Instituto Amicana}
+
+Curso de Inglés B2, graduado.
+
+\vspace{40pt}
+
+
+\textbf{\large HERRAMIENTAS DE SOFTWARE}
+
+\vspace{5pt}
+
+ - Microsoft Project, Nivel abanzado.
+ 
+ \vspace{5pt}
+ 
+ - Microsoft Excel, Nivle abanzado.
+
+\vspace{40pt}
+
+\textbf{\large PARTICIPACIÓN EN EVENTOS}
+
+\vspace{5pt}
+
+- Hackathon “ChatGPT y vos desafiando la gestión de residuos orgánicos” organizado por Dervinsa en la Facultad de Ciencias Agrarias - 2023.
+
+};
+
+\end{tikzpicture}
+
+\end{document}
